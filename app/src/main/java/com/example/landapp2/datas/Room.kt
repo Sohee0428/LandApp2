@@ -1,5 +1,6 @@
 package com.example.landapp2.datas
 
+import java.io.Serializable
 import java.text.NumberFormat
 import java.util.*
 
@@ -7,7 +8,7 @@ class Room(
     val price: Int,
     val address: String,
     val floor: Int,
-    val description: String) {
+    val description: String): Serializable {
 
     fun getFormattedFloor(): String {
 
