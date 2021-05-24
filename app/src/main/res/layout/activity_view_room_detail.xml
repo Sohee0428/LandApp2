@@ -21,6 +21,7 @@
         android:padding="20dp">
 
         <TextView
+            android:id="@+id/priceTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2억 8,500"
@@ -29,6 +30,7 @@
             android:textSize="22sp"/>
 
         <TextView
+            android:id="@+id/descriptionTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="방에 대한 설명"
@@ -58,6 +60,7 @@
             android:layout_weight="1"/>
 
         <TextView
+            android:id="@+id/addressTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="서울시 동대문구"
@@ -88,6 +91,7 @@
             android:layout_weight="1"/>
 
         <TextView
+            android:id="@+id/flootTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1 층"
